@@ -1,0 +1,20 @@
+{
+  "name": "playviativ-addon",
+  "version": "1.0.0",
+  "description": "PlayviaTV - Addon Stremio para buscar streams de filmes e séries",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["stremio", "addon", "xtream", "streaming"],
+  "author": "PlayviaTV",
+  "license": "MIT"
+}

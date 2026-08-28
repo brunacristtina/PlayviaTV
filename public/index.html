@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayviaTV - Addon Stremio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📺</text></svg>">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="icon">📺</span>
+                <h1>PlayviaTV</h1>
+            </div>
+            <p class="subtitle">Addon para Stremio - Canais ao Vivo via IPTV</p>
+        </header>
+
+        <div class="main-card">
+            <h2>📥 Instalar no Stremio</h2>
+            <p class="description">
+                Clique no botão abaixo para instalar o PlayviaTV no Stremio. 
+                O addon oferece centenas de canais ao vivo em diferentes categorias.
+            </p>
+
+            <div class="install-section">
+                <div class="url-box">
+                    <span class="label">URL do Addon:</span>
+                    <div class="url-display">
+                        <code id="addonUrl">http://localhost:7000</code>
+                        <button class="copy-btn" onclick="copyUrl()">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" stroke="currentColor"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" stroke="currentColor"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <button class="install-btn" onclick="installAddon()">
+                    <span class="btn-icon">🚀</span>
+                    Instalar no Stremio
+                </button>
+                <button class="install-btn secondary" onclick="installAddonAlternative()">
+                    <span class="btn-icon">📱</span>
+                    Instalar (Alternativo)
+                </button>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature">
+                    <span class="feature-icon">📡</span>
+                    <h3>Canais Ao Vivo</h3>
+                    <p>Transmissões em tempo real, 24 horas por dia</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">📺</span>
+                    <h3>Múltiplas Categorias</h3>
+                    <p>Esportes, filmes, séries, documentários e mais</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🔄</span>
+                    <h3>Múltiplos Servidores</h3>
+                    <p>Conexão redundante para melhor confiabilidade</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">⚡</span>
+                    <h3>Rápido e Estável</h3>
+                    <p>Streaming de alta qualidade sem interrupções</p>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="usage-card">
+            <h3>📖 Como Usar</h3>
+            <ol>
+                <li>Instale o addon clicando no botão acima</li>
+                <li>Abra o Stremio e acesse a seção "Canais"</li>
+                <li>Selecione "PlayviaTV" e navegue pelos canais disponíveis</li>
+                <li>Clique no canal desejado e assista em tempo real!</li>
+            </ol>
+        </div>
+
+        <footer>
+            <p>PlayviaTV Addon &copy; 2026</p>
+            <p class="small">Desenvolvido para a comunidade Stremio</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
